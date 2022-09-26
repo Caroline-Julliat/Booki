@@ -1,0 +1,34 @@
+@media only screen and (max-width: 992px)
+{
+
+    /*FILTERS*/
+
+    .section_filters{
+        display:block;
+        margin-left: 0;
+    }
+
+    .section_filters h2{
+        margin-top: 45px;
+        margin-left: 10px;
+    }
+
+
+    .container_filter{
+        gap: 13px
+    }
+
+
+     /*GENERAL SECTION HEBERGEMENTS_POPULAIRES*/
+
+    .hebergements_populaires{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    article, aside{
+        width: 100%;
+    }
+
+}
+

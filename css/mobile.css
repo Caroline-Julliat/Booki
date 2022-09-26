@@ -1,0 +1,159 @@
+@media only screen and (max-width: 768px)
+{
+
+    /*GENERAL*/
+
+    .page_header, main {
+        padding: 0;  
+    }
+
+    .main_header, article, aside, .section_activites{
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+
+    article{
+        background-color: white;
+        border-radius: 0px;
+    }
+
+    aside{
+        background-color: #f2f2f2;
+        border-radius: 0px;
+    }
+
+    /*HEADER*/
+    
+    .page_header
+    {
+        display: block;
+    }
+
+
+    .logo{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .nav_list{
+        margin-right: 0px;
+      }
+
+    nav li{
+        width: 50%;
+    }
+
+    nav a{
+        width: 100%;
+        text-align: center;
+        border-bottom: #f2f2f2 solid 3px;
+        line-height: 50px;
+    }
+
+    nav a:hover{
+        color:#0065FC;
+        border-top: none;
+        border-bottom: #0065FC solid 3px;
+        line-height: 50px
+      }
+
+
+    /*MAIN TITLE*/
+
+    h1{
+    width: 326px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    }
+
+    /*FORM*/
+
+
+    form{
+        width: 326px;
+        margin-top: 30px;
+    }
+
+
+    .submit{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        width: 50px;
+        height:50px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#0065FC;
+        border-radius:15px 15px 15px 15px;
+        border: 0px;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: -10px;
+    }
+
+    input[type="submit"] {
+        font-family: FontAwesome;
+    }
+
+    /*FILTERS*/
+
+   .container_filter span{
+    font-size: 16px;
+   }
+
+   .section_filters + p{
+    margin-top: 35px;
+   }
+
+    /*SECTION HEBERGEMENTS*/
+
+    .container_cards_hebergements{
+        display: block;
+    }
+
+    .card_hebergements{
+        width: 100%;
+    }
+
+    /*SECTION POPULAIRES*/
+
+
+
+    /*SECTION ACTIVITES*/
+
+    .container_cards_activites{
+        display: block;
+        height: auto;
+    }
+     
+    .container_cards_activites img {
+        height: 140px;
+    }
+
+    .card_activites{
+        width: 100%;
+    }
+
+    .card_activites h3{
+        margin-block: 0;
+        padding: 15px;
+    }
+
+
+    /*FOOTER*/
+
+    footer{
+        display: block;
+        height: 500px;
+    }
+
+    footer div{
+        width: 100%;
+    }
+
+
+}
