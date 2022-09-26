@@ -4,7 +4,11 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+}
+
+body{
   max-width: 1440px;
+  margin: auto;
 }
 
 .page_header, main, footer{
