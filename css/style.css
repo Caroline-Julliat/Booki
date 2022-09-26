@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+  max-width: 1440px;
 }
 
 .page_header, main, footer{
