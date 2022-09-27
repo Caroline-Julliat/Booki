@@ -432,11 +432,11 @@ aside{
 }
 
 .img_5{
-  height: 140px;
+  height: 135px;
 }
 
 .img_6{
-  height: 150px;
+  height: 155px;
 }
 
 .card_activites h3{
@@ -467,3 +467,23 @@ footer h2{
 footer li{
   line-height: 31px;
 }
+
+
+@media only screen and (max-width: 1156px)
+{
+  .card_hebergements{
+    height: 210px;
+  }
+
+  .card_hebergements_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+  } 
+
+  .card_populaires{
+    padding-right: 10px;
+  } 
+
+}  
