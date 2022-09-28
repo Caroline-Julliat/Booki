@@ -14,8 +14,7 @@
     .main_header, article, aside, .section_activites, footer{
         padding-left: 5%;
         padding-right: 5%;
-      }
-
+    }
 
     article{
         background-color: white;
@@ -27,13 +26,12 @@
         border-radius: 0px;
     }
 
+
     /*HEADER*/
     
-    .page_header
-    {
+    .page_header{
         display: block;
     }
-
 
     .logo{
         text-align: center;
@@ -66,13 +64,13 @@
     /*MAIN TITLE*/
 
     h1{
-    width: 300px;
-    margin-bottom: 0px;
-    margin-top: 40px;
+        width: 300px;
+        margin-bottom: 0px;
+        margin-top: 40px;
     }
 
-    /*FORM*/
 
+    /*FORM*/
 
     form{
         width: 300px;
@@ -106,16 +104,16 @@
         font-family: FontAwesome;
     }
 
+
     /*FILTERS*/
 
    .container_filter span{
-    font-size: 16px;
+        font-size: 16px;
    }
 
    .section_filters + p{
-    margin-top: 35px;
+        margin-top: 35px;
    }
-
     
 
     /*SECTION HEBERGEMENTS*/
@@ -131,6 +129,7 @@
     article button{
         background-color: white;
     }
+
 
     /*SECTION POPULAIRES*/
 
@@ -175,6 +174,5 @@
     footer div{
         width: 100%;
     }
-
 
 }
