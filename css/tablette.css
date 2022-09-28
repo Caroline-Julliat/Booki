@@ -1,4 +1,4 @@
-@media only screen and (max-width: 992px)
+@media only screen and (max-width: 991px)
 {
 
     /*FILTERS*/
@@ -19,16 +19,32 @@
     }
 
 
-     /*GENERAL SECTION HEBERGEMENTS_POPULAIRES*/
+    /*GENERAL SECTION HEBERGEMENTS_POPULAIRES*/
 
-    .hebergements_populaires{
+   .hebergements_populaires{
         display: flex;
         flex-direction: column-reverse;
+        gap: 25px;
     }
 
     article, aside{
         width: 100%;
     }
+
+
+    .container_cards_populaires{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container_cards_populaires a{
+        width: 31%;
+    }
+
+    .card_populaires img{
+        width: 100px;
+    }
+
 
 }
 

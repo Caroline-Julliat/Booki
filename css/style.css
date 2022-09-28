@@ -6,11 +6,6 @@
   font-weight: 300;
 }
 
-body{
-  max-width: 1440px;
-  margin: auto;
-}
-
 .page_header, main, footer{
   padding-left: 3.5%;
   padding-right: 3.5%;
@@ -134,7 +129,7 @@ form{
   font-size: 18px;
 }
 
-.fa-magnifying-glass{
+.submit_icon{
   display: none;
 }
 
@@ -166,13 +161,16 @@ form{
   border-radius: 33px;
   border: solid 2px #d9d9d9;
   height: 48px;
-  transition: 0.6s; 
+  transition: 0.8s; 
 }
 
 .filter:hover{
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
+  background-color: #deebff;
+  border: solid 2px #deebff;
 }
+
 
 .filter i{
   height: 48px;
@@ -260,7 +258,7 @@ article{
 
 .card_hebergements{
   width: 31%;
-  height: 200px;
+  height: 205px;
   padding: 5px 5px 0px 5px;
   display:flex;
   flex-direction: column;
@@ -272,8 +270,8 @@ article{
 }
 
 .card_hebergements:hover{
-  transform: scale(1.1);
-  box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.07);
+  box-shadow: 1px 2px 15px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card_hebergements a{
@@ -293,7 +291,11 @@ article{
 
 .card_hebergements_body{
   margin-left: 5%;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75px;
+} 
 
 .card_hebergements_body p, .card_hebergements_body h3{
   margin-block: 0;
@@ -313,6 +315,7 @@ article button{
   border: none;
   background-color: #f2f2f2;
   padding-top: 15px;
+  padding-bottom: 15px;
   cursor: pointer;
 }
 
@@ -326,7 +329,7 @@ aside{
 .card_populaires{
   width: 100%;
   height: 150px;
-  padding: 5px 20px 5px 5px;
+  padding: 5px 17px 5px 5px;
   display: flex;
   border-radius: 20px;
   background-color: white;
@@ -336,8 +339,8 @@ aside{
 }
 
 .card_populaires:hover{
-  transform: scale(1.1);
-  box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.07);
+  box-shadow: 1px 2px 15px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card_populaires figure{
@@ -381,6 +384,10 @@ aside{
   font-size: 14px;
 }
 
+.card_populaires_body i{
+  margin: -1px;
+}
+
 
 
 /*SECTION ACTIVITES*/
@@ -394,19 +401,20 @@ aside{
   flex-flow: column wrap;
   height: 500px;
   column-gap: 3%;
+  padding-top: 10px;
 }
 
 .card_activites{
   width: 22.5%;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   border-radius: 20px;
   box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.1);
   transition: 0.6s;
 }
 
 .card_activites:hover{
-  transform: scale(1.1);
-  box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.07);
+  box-shadow: 1px 2px 15px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card_activites figure{
@@ -419,28 +427,56 @@ aside{
   border-radius: 20px 20px 0px 0px;
 }
 
+.card_1, .card_4{
+  height: 440px;
+}
+
+.card_2{
+  height: 240px;
+}
+
+.card_3{
+  height: 160px;
+}
+
+.card_5{
+  height: 190px;
+}
+
+.card_6{
+  height: 210px;
+}
+
+
+
 .img_1, .img_4{
   height: 380px;
 }
 
 .img_2{
   height: 180px;
+  object-position: 50% 40%;
 }
 
 .img_3{
   height: 110px;
+  object-position: 50% 20%;
 }
 
 .img_5{
   height: 135px;
+  object-position: 50% 10%;
 }
 
 .img_6{
   height: 155px;
+  object-position: 50% 10%;
 }
 
 .card_activites h3{
-  margin-left: 6%;
+  height: 50px;
+  padding: 6%;
+  margin-block: 0;
 }
 
 
@@ -467,23 +503,3 @@ footer h2{
 footer li{
   line-height: 31px;
 }
-
-
-@media only screen and (max-width: 1156px)
-{
-  .card_hebergements{
-    height: 210px;
-  }
-
-  .card_hebergements_body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 80px;
-  } 
-
-  .card_populaires{
-    padding-right: 10px;
-  } 
-
-}  
