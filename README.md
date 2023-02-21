@@ -1,6 +1,8 @@
 # Transformez une maquette en site web avec HTML et CSS
 Deuxième projet du parcours dévelopeur web chez OpenClassrooms. 
 L'objectif est __d'intégrer la maquette d'un site de planification de vacances__ nommé "Booki" (maquette ci-dessous).
+  
+    
 ![image](./assets/maquette.png)
 
 ## Spécifications fonctionnelles    
