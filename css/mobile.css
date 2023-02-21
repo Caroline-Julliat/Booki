@@ -100,11 +100,6 @@
         margin-left: -10px;
     }
 
-    input[type="submit"] {
-        font-family: FontAwesome;
-    }
-
-
     /*FILTERS*/
 
    .container_filter span{

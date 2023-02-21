@@ -6,6 +6,11 @@
   font-weight: 300;
 }
 
+body{
+  max-width: 1440px;
+  margin: auto;
+}
+
 .page_header, main, footer{
   padding-left: 3.5%;
   padding-right: 3.5%;
@@ -259,8 +264,6 @@ article{
   width: 31%;
   height: 205px;
   padding: 5px 5px 0px 5px;
-  display:flex;
-  flex-direction: column;
   border-radius: 20px;
   background-color: white;
   margin-bottom: 30px;
@@ -271,10 +274,6 @@ article{
 .card_hebergements:hover{
   transform: scale(1.07);
   box-shadow: 1px 2px 15px 3px rgba(0, 0, 0, 0.1);
-}
-
-.card_hebergements a{
-  height: 200px;
 }
 
 .card_hebergements figure{
