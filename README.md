@@ -1,7 +1,7 @@
 # Transformez une maquette en site web avec HTML et CSS
 Deuxième projet du parcours dévelopeur web chez OpenClassrooms. 
 L'objectif est __d'intégrer la maquette d'un site de planification de vacances__ nommé "Booki" (maquette ci-dessous).
-![image](/assets/maquette.png.png)
+![image](./assets/maquette.png)
 
 ## Spécifications fonctionnelles    
 ● Les usagers pourront rechercher des hébergements dans la ville de
@@ -18,8 +18,8 @@ des liens__. Ils doivent mener respectivement vers la section
 ## Spécifications techniques        
 ● __Deux maquettes ont été réalisées : l’une desktop et l’autre mobile__. Le
 site devra être également adapté aux formats tablette.      
-● Il faut d’abord réaliser l’intégration en desktop first, puis les tablettes et enfin les téléphones.
-● breakpoints: 992 px et 768 px
+● Il faut d’abord réaliser l’intégration en desktop first, puis les tablettes et enfin les téléphones.  
+● breakpoints: 992 px et 768 px  
 ● Plusieurs formats et tailles d’images ont été exportés. Il faudra choisir
 le format le plus adapté par rapport à la résolution et au temps de
 chargement.    
